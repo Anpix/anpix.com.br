@@ -223,8 +223,9 @@ h1 {
   border-radius: 999px;
   padding: 0.25rem 0.7rem;
   background: color-mix(in srgb, var(--accent) 15%, white);
-  font-size: 0.74rem;
+  font-size: 0.6rem;
   font-weight: 700;
+  text-transform: uppercase;
   color: #972f11;
 }
 
@@ -267,7 +268,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  padding: 2.2rem 0;
+  padding: 2.2rem;
 }
 
 .contact h2 {
@@ -348,5 +349,10 @@ h1 {
   .btn-whatsapp {
     width: 100%;
     justify-content: center;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
   }
 }
