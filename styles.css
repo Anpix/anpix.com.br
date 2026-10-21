@@ -432,12 +432,6 @@ a.store-badge:hover {
   background: color-mix(in srgb, var(--btn-dark-bg) 82%, var(--bg));
 }
 
-.store-badge.is-soon {
-  background: transparent;
-  color: var(--muted);
-  border: 1px dashed var(--line);
-}
-
 /* About */
 
 .about {
